@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 100%;
+    background-color: #FBF9F9;
+    @include center;
+    .about-wrapper{
+        width: 80%;
+        margin: 72px 0; 
+        @include center;
+        flex-direction: column;
+    }
+    h4{
+        font-size: 1.3em;
+        line-height: 29px;
+        font-style: italic;
+        color: #333;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        margin: 36px 0;
+    }
+    h2{
+        font-size: 2.5em;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 10px 0;
+    }
+}
