@@ -1,0 +1,51 @@
+.sub-nav {
+  width: 100%;
+}
+.sub-nav .sub-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 25px;
+}
+.sub-nav .sub-wrapper ul {
+  display: flex;
+}
+.sub-nav .sub-wrapper ul li {
+  padding: 0 20px;
+}
+.sub-nav .sub-wrapper ul li a {
+  font-size: 11px;
+  color: #787878;
+}
+.sub-nav .sub-wrapper .social-icons li a i {
+  color: #e8d8d5;
+  font-size: 13px;
+}
+
+nav {
+  width: 100%;
+  padding: 30px 0 0 0;
+}
+nav ul {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li a {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 11px;
+}
+nav ul li a img {
+  height: 32px;
+}
+
+.active {
+  color: #d1b7b2;
+}/*# sourceMappingURL=Navbar.css.map */

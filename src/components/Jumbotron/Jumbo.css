@@ -1,0 +1,75 @@
+.jumbo {
+  width: 100%;
+  height: 100vh;
+  background-color: #CED8E1;
+  position: relative;
+  z-index: -1;
+  margin-top: -66px;
+}
+.jumbo .jumbo-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.jumbo .jumbo-img::after {
+  content: "";
+  position: absolute;
+  right: 85px;
+  top: -54px;
+  width: 34%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../img/back-slider-woman-cut.jpg");
+}
+.jumbo .jumbo-img::before {
+  content: "";
+  position: absolute;
+  left: -15%;
+  top: 51%;
+  width: 534px;
+  height: 384px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../img//style-rd.png");
+}
+.jumbo .jumbo-img .jumbo-overlay {
+  background-color: rgba(251, 249, 248, 0.8);
+  width: 1131px;
+  height: 490px;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  transform: translateY(115px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo .jumbo-img .jumbo-overlay .big-border {
+  width: 535px;
+  height: 111px;
+  border: 1px solid #898989;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo .jumbo-img .jumbo-overlay .big-border .little-border {
+  width: 498px;
+  height: 142px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 83%;
+  background-image: url("../../img/h1-slide-2-img-2.png");
+  z-index: 1;
+}/*# sourceMappingURL=Jumbo.css.map */
